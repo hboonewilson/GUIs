@@ -13,7 +13,7 @@ import webbrowser
 # and Google Geocoding API.  Both require use of an API key.
 # 
 # When you have the API key, put it between the quotes in the string below
-GOOGLEAPIKEY = 'get GOOGLEAPIKEY'
+GOOGLEAPIKEY = 'Get GOOGLEAPIKEY'
 
 
 # The Globals class demonstrates a better style of managing "global variables"

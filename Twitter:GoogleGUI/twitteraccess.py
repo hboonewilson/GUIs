@@ -14,8 +14,8 @@ from urllib.parse import quote_plus
 # After you set up the app, copy the four long messy strings and put them here.
 #
 
-API_KEY = "Get API Key"
-API_SECRET = "Get API Key"
+API_KEY = "Get twitterAPI key"
+API_SECRET = "Get twitter API_SECRET"
 ACCESS_TOKEN = "Go get OAuth1 access key"
 ACCESS_TOKEN_SECRET = "Go get OAuth1 access key"
  
