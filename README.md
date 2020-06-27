@@ -7,4 +7,4 @@ Goole static map. The user can then scroll through tweets and the GUI will displ
 
 
 <img src="images/chicago.png" width="300">
-<img src="images/ny.png" width="400">
+<img src="images/ny.png" width="300">
