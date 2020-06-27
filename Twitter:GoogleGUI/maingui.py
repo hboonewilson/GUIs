@@ -13,7 +13,7 @@ import webbrowser
 # and Google Geocoding API.  Both require use of an API key.
 # 
 # When you have the API key, put it between the quotes in the string below
-GOOGLEAPIKEY = 'Get GOOGLEAPIKEY'
+GOOGLEAPIKEY = 'GOOGLEAPIKEY'
 
 
 # The Globals class demonstrates a better style of managing "global variables"
@@ -159,10 +159,10 @@ def readEntryDisplayMapAndTweets():
 
    twtEnt = Globals.enterTweet.get()
    Globals.twitterTopic = twtEnt
-   Globals.enterTweet.delete(0, tkinter.END)
+   #Globals.enterTweet.delete(0, tkinter.END)
    txtEnt = Globals.enterPlace.get()
    Globals.mapLocation = txtEnt
-   Globals.enterPlace.delete(0, tkinter.END)
+   #Globals.enterPlace.delete(0, tkinter.END)
    createGeoTag(Globals.mapLocation)
    retTweets()
    changeGlobals()
@@ -206,7 +206,7 @@ def initializeGUIetc():
    Globals.choiceMap = tkinter.StringVar()
    Globals.choiceMap.set('roadmap')
 
-   Globals.rootWindow.title("HW9")
+   Globals.rootWindow.title("Twitter/Google GUI")
 
    mainFrame = tkinter.Frame(Globals.rootWindow) 
    mainFrame.pack()
